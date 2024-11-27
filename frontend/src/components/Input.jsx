@@ -3,8 +3,7 @@ import AuthContext from '../context/AuthContext';
 import TodosContext from '../context/TodosContext';
 
 function Input() {
-
-    const url = "https://expert-capybara-gv9gq754rx7hpgv-4000.app.github.dev"
+    const url = "https://mern-todo-two-zeta.vercel.app";
     const [todo, setTodo] = useState("");
     const input = useRef("");
 
